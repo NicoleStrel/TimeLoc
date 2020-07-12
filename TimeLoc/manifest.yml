@@ -1,0 +1,15 @@
+modules:
+  macro:
+    - key: timeloc-hello-world
+      function: main
+      title: TimeLoc
+      description: Inserts Hello world!
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: 'ari:cloud:ecosystem::app/080ace22-ac82-40fa-8483-ab072b749bdb'
+  name: TimeLoc
+permissions:
+  scopes:
+    - 'read:jira-user'
