@@ -1,5 +1,7 @@
 # TimeLoc
 
+TimeLoc is a Confluence Macro that allows for easier communication and awareness between global teammates.
+
 ## Inspiration
 
 Companies are full of diverse people- whether that be the culture, background experience, or location. Nowadays, remote work and working with people all across the globe are becoming more prevalent. The problem that is now seen is communication across timezones and messaging co-workers at appropriate reply times. There is a need for more effective communication between global teammates.
