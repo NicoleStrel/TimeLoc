@@ -1,12 +1,24 @@
-import ForgeUI, {ConfigForm} from '@forge/ui';
+import ForgeUI, {ConfigForm,  Option, Select, TextField, useConfig} from '@forge/ui';
 
-export const defaultConfig = {
-}; 
 
 export const ConfigView= () => {
-    return (
-        <ConfigForm >
-         
-        </ConfigForm>
-      );
-}
+  
+  return (
+      <ConfigForm>
+          <TextField name="title" label="Title"/> 
+          <Select name="clock" label="Clock" >
+            <Option value="24hr" label="24hr"/>
+            <Option value="12hr" label="12hr" />
+          </Select>
+      </ConfigForm>
+    );
+};
+
+
+
+
+
+
+
+
+

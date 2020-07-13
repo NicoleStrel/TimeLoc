@@ -1,9 +1,9 @@
 modules:
   macro:
-    - key: timeloc-hello-world
+    - key: timeloc
       function: main
       title: TimeLoc
-      description: Inserts Hello world!
+      description: TimeLoc is a Confluence Macro that allows for easier communication and awareness between global teammates.
   function:
     - key: main
       handler: index.run

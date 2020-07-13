@@ -1,13 +1,18 @@
 import ForgeUI, {Macro, render} from "@forge/ui"
 
 import {AppView} from "./app";
-import {ConfigView, defaultConfig} from "./config";
+import {ConfigView} from "./config";  
 
-//--------------------------run-------------------------
 export const run = render(
   <Macro 
-  config={<ConfigView />}
-  app={<AppView />}
-  defaultConfig={defaultConfig}
+    app={<AppView />}
+    config={<ConfigView />}
+    defaultConfig={{
+      title: "TimeLoc",
+      clock: "24hr",
+    }}
   />
 );
+
+
+    
