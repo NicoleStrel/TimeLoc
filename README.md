@@ -24,8 +24,8 @@ The list below outlines some of the features this Macro includes!
 > 4. timezone
 > 5. local real time
 > 6. customizable design 
-    * title of widget
-    * 24hr or 12 hr clock
+    / title of widget
+    / 24hr or 12 hr clock
 
 ## Challenges I ran into
 
