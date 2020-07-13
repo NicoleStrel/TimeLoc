@@ -23,7 +23,7 @@ The list below outlines some of the features this Macro includes!
 > 3. location
 > 4. timezone
 > 5. local real time
-> 6. customizable design 
+> 6. customizable design: 
     / title of widget
     / 24hr or 12 hr clock
 
