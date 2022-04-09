@@ -20,7 +20,7 @@
   "dependencies": {
     "@forge/api": "^0.4.2",
     "@forge/ui": "^0.4.2",
-    "moment": "^2.27.0",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.31",
     "react": "^16.13.1"
   }
